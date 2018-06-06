@@ -13,7 +13,7 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-app-rewired eject",
-    "format": "prettier-standard '*/**/*.js'",
+    "format": "prettier-standard '**/*.js'",
     "pre-commit": "lint-staged"
   },
   "devDependencies": {
@@ -25,7 +25,7 @@
   },
   "lint-staged": {
     "linters": {
-      "*/**/*.js": [
+      "**/*.js": [
         "prettier-standard",
         "git add"
       ]
