@@ -1,7 +1,7 @@
 // @flow
 
 import React, { Component } from 'react'
-import { Button, Layout, List } from 'antd'
+import { Layout, List } from 'antd'
 import './App.css'
 
 const listItems = [
@@ -15,7 +15,7 @@ type Props = {}
 
 class App extends Component<Props> {
   render () {
-    const { Header, Footer, Sider, Content } = Layout
+    const { Header } = Layout
     return (
       <Layout>
         <Header>Kenlab.me</Header>
