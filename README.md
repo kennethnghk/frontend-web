@@ -2,9 +2,9 @@
 
 ## Setup 
 
-Install serve globally
+Install pm2 globally
 ```sh
-npm install -g serve
+npm install -g pm2
 ```
 
 Build app
@@ -14,5 +14,5 @@ yarn build
 
 Run app
 ```
-serve -s build
+pm2 serve build --name frontend-web
 ```
